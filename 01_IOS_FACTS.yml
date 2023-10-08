@@ -1,8 +1,11 @@
 ---
+
 - name: Test IOS Facts
-  hosts: routers
+  hosts: 192.168.1.25
   connection: network_cli
+  ansible_network_os= ios
+
   tasks:
-    -name: Gather IOS Facts
-     ios_facts:
-      gather_subset: all
+  -name: Gather IOS Facts
+   ios_facts:
+    gather_subset: all
