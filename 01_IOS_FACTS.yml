@@ -3,6 +3,6 @@
   hosts: routers
   connection: network_cli
   tasks:
-      -name: Gather IOS Facts
-       -ios_facts:
-          gather_subset: all
+    -name: Gather IOS Facts
+      ios_facts:
+         gather_subset: all
