@@ -1,0 +1,8 @@
+name: Testing Connection to Switches
+hosts: 192.168.1.25
+gather_facts: no
+
+tasks:
+ -name: Gather facts
+  cisco.ios.ios_facts:
+  
