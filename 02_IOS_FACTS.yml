@@ -4,5 +4,4 @@ gather_facts: no
 
 tasks:
  -name: Gather facts
-  cisco.ios.ios_facts:
-  
+  cisco.ios.ios_facts
