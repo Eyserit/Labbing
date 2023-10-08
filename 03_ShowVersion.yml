@@ -1,5 +1,5 @@
 - name: Cisco show version example
-  hosts: 192.168.1.25
+  hosts: routers
   gather_facts: false
 
   tasks:
